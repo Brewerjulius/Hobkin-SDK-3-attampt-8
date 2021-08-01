@@ -1,0 +1,228 @@
+fileFormatVersion: 2
+guid: b5facb9d2254cc749befda8b22c16f83
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Body
+    100002: Bones
+    100004: Cleaning_rod
+    100006: Cleaning_rod_end
+    100008: Fire
+    100010: Fire_2
+    100012: Fire_2_end
+    100014: Fire_end
+    100016: Pistol
+    100018: //RootNode
+    100020: Smoke_1
+    100022: Smoke_2
+    100024: Spring
+    100026: Spring_end
+    100028: Trigger
+    100030: Trigger_end
+    100032: Camera
+    100034: Lamp
+    400000: Body
+    400002: Bones
+    400004: Cleaning_rod
+    400006: Cleaning_rod_end
+    400008: Fire
+    400010: Fire_2
+    400012: Fire_2_end
+    400014: Fire_end
+    400016: Pistol
+    400018: //RootNode
+    400020: Smoke_1
+    400022: Smoke_2
+    400024: Spring
+    400026: Spring_end
+    400028: Trigger
+    400030: Trigger_end
+    400032: Camera
+    400034: Lamp
+    2300000: Pistol
+    2300002: //RootNode
+    3300000: Pistol
+    3300002: //RootNode
+    4300000: Pistol
+    7400000: Shoot
+    7400002: "Bones|\u041F\u0443\u0441\u0442\u044B\u0448\u043A\u0430Action"
+    7400004: "Smoke_2|\u041F\u0443\u0441\u0442\u044B\u0448\u043A\u0430Action"
+    7400006: "Smoke_1|\u041F\u0443\u0441\u0442\u044B\u0448\u043A\u0430Action"
+    7400008: Shoot //// Bones
+    7400010: Shoot //// Body
+    7400012: Shoot //// Trigger
+    7400014: Shoot //// Fire
+    7400016: Shoot //// Fire_2
+    7400018: Shoot //// Spring
+    7400020: Shoot //// Cleaning_rod
+    9500000: //RootNode
+    11100000: Pistol
+    11100002: //RootNode
+    11100004: Body
+    11100006: Bones
+    11100008: Cleaning_rod
+    11100010: Cleaning_rod_end
+    11100012: Fire
+    11100014: Fire_2
+    11100016: Fire_2_end
+    11100018: Fire_end
+    11100020: Smoke_1
+    11100022: Smoke_2
+    11100024: Spring
+    11100026: Spring_end
+    11100028: Trigger
+    11100030: Trigger_end
+    13700000: Pistol
+    13700002: Body
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pistol
+    second: {fileID: 2100000, guid: 5d291a09e8113c04297bf924c062eaf8, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Shoot
+      takeName: Bones|Shoot
+      firstFrame: 0
+      lastFrame: 15
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bones
+        weight: 1
+      - path: Bones/Body
+        weight: 1
+      - path: Bones/Body/Cleaning_rod
+        weight: 1
+      - path: Bones/Body/Cleaning_rod/Cleaning_rod_end
+        weight: 1
+      - path: Bones/Body/Fire
+        weight: 1
+      - path: Bones/Body/Fire/Fire_end
+        weight: 1
+      - path: Bones/Body/Fire_2
+        weight: 1
+      - path: Bones/Body/Fire_2/Fire_2_end
+        weight: 1
+      - path: Bones/Body/Smoke_1
+        weight: 1
+      - path: Bones/Body/Smoke_2
+        weight: 1
+      - path: Bones/Body/Spring
+        weight: 1
+      - path: Bones/Body/Spring/Spring_end
+        weight: 1
+      - path: Bones/Body/Trigger
+        weight: 1
+      - path: Bones/Body/Trigger/Trigger_end
+        weight: 1
+      - path: Pistol
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

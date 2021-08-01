@@ -1,0 +1,148 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: AT Eyes
+  m_Shader: {fileID: 4800000, guid: 5e1d12dd9f331b94da153b99f92b9e11, type: 3}
+  m_ShaderKeywords: _EMISSION
+  m_LightmapFlags: 1
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Albedo:
+        m_Texture: {fileID: 2800000, guid: e13ffeb9d9ecd3a468d4dab77af69069, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ClearcoatMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Emission:
+        m_Texture: {fileID: 2800000, guid: e13ffeb9d9ecd3a468d4dab77af69069, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 2800000, guid: e13ffeb9d9ecd3a468d4dab77af69069, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: e13ffeb9d9ecd3a468d4dab77af69069, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal:
+        m_Texture: {fileID: 2800000, guid: aa7f4044f96d9e8488d182bd8b70dd82, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxHeight:
+        m_Texture: {fileID: 2800000, guid: 5baf9ca4cbff5a147ba47f6433f7d6e3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StylizedReflection:
+        m_Texture: {fileID: 8900000, guid: d2ecdec50efdaf7448311e0c5bc2cf3b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AmbientBoost: 0
+    - _Backward: 0
+    - _BumpScale: 1
+    - _Clearcoat: 0
+    - _ClearcoatGlossiness: 0.5
+    - _CrossEye: 0
+    - _Cutoff: 0
+    - _Depth: 0.054
+    - _DetailNormalMapScale: 1
+    - _DissolveCoverage: 1
+    - _DissolveDistance: 1
+    - _DstBlend: 0
+    - _EmissionMapPower: 0.604
+    - _EmissionPower: 0.604
+    - _EyeOffset: 0
+    - _FollowLimit: 0
+    - _FollowPower: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 1
+    - _GlossyReflections: 1
+    - _IrisBlend: 0
+    - _IrisSize: 0
+    - _LensBumpPower: 0
+    - _LightProbeMethod: 0
+    - _MaxPupilDialation: 0
+    - _MayaModel: 0
+    - _Metallic: 0
+    - _Mode: 0
+    - _NormalPower: 1
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _PupilDialationFrequency: 0
+    - _PupilDialationMagnitude: 1
+    - _Reflectance: 0.5
+    - _Smooth: 1
+    - _SmoothnessTextureChannel: 0
+    - _Specular: 0.081
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _TwitchMagnitude: 0
+    - _TwitchShiftyness: 0
+    - _UVSec: 0
+    - _WireframeSmoothing: 1
+    - _WireframeThickness: 1
+    - _ZWrite: 1
+    - __dirty: 1
+    m_Colors:
+    - _AmbientBoostGround: {r: 0, g: 0, b: 0, a: 1}
+    - _AmbientBoostHorizon: {r: 0, g: 0, b: 0, a: 1}
+    - _AmbientBoostSky: {r: 0, g: 0, b: 0, a: 1}
+    - _Blood: {r: 0.47058815, g: 0.37370238, b: 0.37370238, a: 0}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 0}
+    - _IrisRing: {r: 1, g: 0, b: 0, a: 1}
+    - _Scelera: {r: 0.6470588, g: 0.6185122, b: 0.6185122, a: 0}
+    - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+    - _WireframeColor: {r: 1, g: 1, b: 1, a: 1}
+    - _WireframeColor2: {r: 1, g: 1, b: 1, a: 1}
